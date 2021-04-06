@@ -7,21 +7,25 @@ body {
   padding-top: 56px;
 }
 
+h1 {
+	color: #FFF;
+}
+
+h2 {
+	color: #FFF;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
 .navbar {
 	background: #a80d6b;
-}
-
-.navbar-brand {
-    color: #fff;
-    cursor: pointer;
-}
-
-.nav-link {
-	color: #CCC;
-}
-
-.nav-link:hover {
-    color: #FFF;
 }
 
 .jumbotron {
@@ -34,4 +38,20 @@ body {
 
 .jumbotron p{
     color: #fff;
+}
+
+.list-group-item {
+	color: #fff;
+}
+
+.alignleft {
+	float: left;
+	margin: 0;
+    padding: 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0;
+    padding: 0;
 }
