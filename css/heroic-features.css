@@ -3,13 +3,19 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
  */
+   
+
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   padding-top: 56px;
 }
 
 .overlay {
     position: absolute;
-    min-height: 100%;
+	min-height: -webkit-fill-available;
     min-width: 100%;
     left: 0;
     top: 0;
