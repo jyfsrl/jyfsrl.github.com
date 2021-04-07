@@ -1,68 +1,123 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
-
-    <title>Cover Template for Bootstrap</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/cover/">
-
-    <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/heroic-features.css" rel="stylesheet">
-  
-  </head>
-
-  <body class="text-center">
-
-    <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="assets/spot_jyf.png" style="max-height:30px;"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Menú
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cover.html">Nosotros</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-<div class="cover-container d-flex h-100 p-3 mx-auto flex-column" style="background-image:url('assets/cover_background.jpg');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;">
-      <main role="main" class="inner cover" style="background-color:rgba(255, 255, 255, 0.7);width:90%;margin-left:5%;border-radius:20px;padding:2%;">
-        <h1 class="display-3" style="color:#000;">Spot JyF</h1>
-        <p class="lead">Spot JyF es el complemento perfecto para una estación de servicio de excelencia.</p>
-        <p class="lead">Te ofrece un lugar con mesas y barras, diarios, pantalla de TV, servicio de internet Wi-Fi, tomas de corriente para recargar los dispositivos portátiles de los clientes, sector para fumadores y estacionamiento exclusivo. Se destaca por la calidad de los productos, las promos, la panadería artesanal, un ambiente cordial con estética moderna. Atención con esmero y rapidez, lo que sumado a la marca de identidad en los uniformes característicos del SPOT te permitirán descubrir más grata tu experiencia SPOT JyF.</p>
-        <p class="lead">Te esperamos en Av. Belgrano 803, San Fernando del Valle de Catamarca.</p>
-      </main>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+	<title>Spot JyF</title>
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/cover/">
+<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+	<link href="css/heroic-features.css" rel="stylesheet">
+</head>
+<body class="text-center">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+	<div class="container">
+		<a class="navbar-brand" href="#"><img src="assets/spot_jyf.png" style="max-height:30px;"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"> <a class="nav-link" href="index.html">Menú <span class="sr-only">(current)</span> </a> </li>
+				<li class="nav-item active"> <a class="nav-link" href="cover.html">Nosotros</a> </li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<div class="d-flex align-items-center justify-content-center min-vh-100">
+				<img class="slide" src="assets/carousel-1.jpg" alt=""> 
+			</div>
+			<div class="container">
+				<div class="carousel-caption text-left">
+					<h1>
+						Spot JyF
+					</h1>
+					<p>
+						Spot JyF es el complemento perfecto para una estación de servicio de excelencia.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="d-flex align-items-center justify-content-center min-vh-100">
+				<img class="slide" src="assets/carousel-2.jpg" alt=""> 
+			</div>
+			<div class="container">
+				<div class="carousel-caption">
+					<h1>
+						La mejor experiencia
+					</h1>
+					<p>
+						Nos destacamos por la calidad de nuestros productos, promos, panadería artesanal, un ambiente cordial con estética moderna. Atención con esmero y rapidez, lo que sumado a la marca de identidad en los uniformes característicos del Spot te permitirán descubrir más grata tu experiencia.
+					</p>
+					<p>
+						<a class="btn btn-lg btn-primary" href="index.html" role="button">Ver menú</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="d-flex align-items-center justify-content-center min-vh-100">
+				<img class="slide" src="assets/carousel-3.jpg" alt=""> 
+			</div>
+			<div class="container">
+				<div class="carousel-caption">
+					<h1>
+						Te ofrecemos todo lo que necesitas
+					</h1>
+					<p>
+						Mesas y barras, diarios, pantalla de TV, servicio de internet Wi-Fi, tomas de corriente para recargar los dispositivos portátiles de los clientes, sector para fumadores y estacionamiento exclusivo.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="d-flex align-items-center justify-content-center min-vh-100">
+				<img class="slide" src="assets/carousel-4.jpg" alt=""> 
+			</div>
+			<div class="container">
+				<div class="carousel-caption text-right">
+					<h1>
+						Spot JyF
+					</h1>
+					<p>
+						Te esperamos en Av. Belgrano 803, San Fernando del Valle de Catamarca.
+					</p>
+					<p>
+						<a class="btn btn-lg btn-primary" href="https://goo.gl/maps/yUZp9r1uvGozYsBfA" role="button">Cómo llegar</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
 </div>
-
-      <!-- Footer -->
-  <footer class="py-5" style="background-color: #a80d6b;">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; JyF SRL 2021</p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="main.js"></script>
-  </body>
+<!-- Footer -->
+<footer class="py-5" style="background-color: #a80d6b;">
+	<div class="container">
+		<p class="m-0 text-center text-white">
+			Copyright &copy; JyF SRL 2021
+		</p>
+	</div>
+<!-- /.container -->
+</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js">
+</script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js">
+</script>
+<script src="main.js">
+</script>
+</body>
 </html>
