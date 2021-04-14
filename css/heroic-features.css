@@ -29,7 +29,7 @@ body {
     max-height: 100%;
     top: 0;
     object-fit: cover;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-shadow: 0 2px 3px rgba(0,0,0,.6);
 }
 
 .carousel-item:after {
@@ -40,7 +40,13 @@ body {
   bottom:0;
   left:0;
   right:0;
-  background:rgba(0,0,0,0.25);
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5));
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background: #a80d6b !important;
+  border-color: #a80d6b;
 }
 
 .carousel-caption {
