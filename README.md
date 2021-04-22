@@ -18,16 +18,19 @@ debajo de cada ítem como se muestra en la imagen.
 ![alt text](instrucciones/modificar_precio.png "Basta con cambiar el precio debajo del ítem")
 
 7. Para añadir un nuevo ítem, copiar y pegar el siguiente código después de cualquier
-\\</tr>, reemplazando con el nombre del producto y el precio con el símbolo $.
+&lt;/tr>, reemplazando con el nombre del producto y el precio con el símbolo $.
 
+```
 <tr>
+
 	<td>Nombre del nuevo ítem</td>
-	<td>$XXX</td>
+	<td>$XXX</td>	
 </tr>
+```
 
 ![alt text](instrucciones/agregar_items2.png "Copiar y pegar estas 4 líneas de código, luego cambiar datos del ítem.")
 
-8. Para eliminar un ítem, borrar las 4 líneas de código desde \<tr> hasta \<\tr>.
+8. Para eliminar un ítem, borrar las 4 líneas de código desde &lt;tr> hasta &lt;\tr>.
 ![alt text](instrucciones/agregar_items1.png "Eliminar estas 4 líneas de código para eliminar un ítem.")
 
 9. Guardar cambios haciendo un commit. Escribir un título y comentario para indicar los 
